@@ -1,0 +1,9 @@
+deploy:
+  commands:
+    - type: releasetag
+      config:
+        targetEnvironment: "dev"
+        applicationName: "newline"
+        showInitializationPrompt: false
+      githubRepoName: "shambhu-test"
+      tagToRelease: "v1.0.0"
