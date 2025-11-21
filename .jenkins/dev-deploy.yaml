@@ -7,4 +7,4 @@ deploy:
         showInitializationPrompt: false
       githubRepoName: "terraform-linkedin"
       githubOrg: "shambhu9803"
-      tagToRelease: "v1.0.0"
+      tagToRelease: "v1.2.0"
