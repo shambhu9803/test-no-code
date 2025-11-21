@@ -1,6 +1,6 @@
 deploy:
   commands:
-    - type: releasetag
+    - type: releasetagdeploy
       config:
         targetEnvironment: "dev"
         applicationName: "newline"
