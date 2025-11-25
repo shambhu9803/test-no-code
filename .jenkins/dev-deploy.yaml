@@ -4,7 +4,7 @@ deploy:
       config:
         targetEnvironment: "dev"
         applicationName: "newline"
-        showInitializationPrompt: false
+        showInitializationPrompt: true
+        tagToRelease: "v1.2.0"
       githubRepoName: "terraform-linkedin"
       githubOrg: "shambhu9803"
-      tagToRelease: "v1.2.0"
