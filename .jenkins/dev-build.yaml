@@ -1,6 +1,5 @@
-jenkins:
-  build:
-    commands:
-      - type: sh
-        command: "echo Hello World"
+build:
+  commands:
+    - type: sh
+      command: "echo Hello World"
   
