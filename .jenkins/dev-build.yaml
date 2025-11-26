@@ -1,0 +1,5 @@
+jenkins:
+  build:
+    type: sh
+    name: "echo Hello World"
+  
