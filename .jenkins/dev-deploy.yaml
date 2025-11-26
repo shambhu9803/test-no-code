@@ -6,6 +6,7 @@ deploy:
         applicationName: "newline"
         showInitializationPrompt: true
         tagToRelease: "v1.2.0"
+        generateReleaseNotes: true
       githubRepoName: "terraform-linkedin"
       githubOrg: "shambhu9803"
       hashivault:
