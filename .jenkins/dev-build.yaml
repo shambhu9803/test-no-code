@@ -1,5 +1,6 @@
 jenkins:
   build:
-    type: sh
-    name: "echo Hello World"
+    commands:
+      - type: sh
+        command: "echo Hello World"
   
