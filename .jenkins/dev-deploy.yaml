@@ -2,11 +2,9 @@ deploy:
   commands:
     - type: pushreleasetogithubdotcom
       config:
-        targetEnvironment: "dev"
         applicationName: "newline"
         showInitializationPrompt: true
         tagToRelease: "v1.6.0"
-        generateReleaseNotes: true
         noOfTagsToShow: "10"
       githubRepoName: "terraform-linkedin"
       githubOrg: "shambhu9803"
