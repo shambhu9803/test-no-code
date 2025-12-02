@@ -1,6 +1,6 @@
 deploy:
   commands:
-    - type: releasetagdeploy
+    - type: pushreleasetogithubdotcom
       config:
         targetEnvironment: "dev"
         applicationName: "newline"
