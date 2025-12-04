@@ -4,7 +4,7 @@ deploy:
       config:
         targetEnvironment: "dev"
         applicationName: "newline"
-        showInitializationPrompt: true
+        #showInitializationPrompt: true
         tagToRelease: "v1.6.0"
         noOfTagsToShow: "10"
       githubRepoName: "terraform-linkedin"
