@@ -7,7 +7,7 @@ deploy:
         showInitializationPrompt: true
         tagToRelease: "v1.7.0"
         noOfTagsToShow: "10"
-      githubRepoName: "terraform-linkedin"
+      githubRepoName: "test-no-code"
       githubOrg: "shambhu9803"
       hashivault:
       - config: 
