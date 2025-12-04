@@ -2,7 +2,7 @@ deploy:
   commands:
     - type: pushreleasetogithubdotcom
       config:
-        targetEnvironment: "prod"
+        targetEnvironment: "dev"
         applicationName: "newline"
         showInitializationPrompt: true
         tagToRelease: "v1.6.0"
