@@ -1,0 +1,27 @@
+deploy:
+  commands:
+    - type: pushreleasetogithubdotcom
+      config:
+        targetEnvironment: "dev"
+        applicationName: "newline"
+        showInitializationPrompt: true
+        tagToRelease: "v1.6.0"
+        generateReleaseNotes: true
+        noOfTagsToShow: "10"
+      githubRepoName: "terraform-linkedin"
+      githubOrg: "shambhu9803"
+      hashivault:
+      - config: 
+          vaultURL: 'https://vault-stg.ise-secdev-dev.nube.53.com'
+          id: 'agns-mdshn-n34eg-12na'
+          namespace: "private/je3689"
+          engineVersion: 2
+      - secrets:
+          -
+            path: "kv/hv-testing"
+            env: dev
+            engineVersion: 2
+            secretValues: 
+              -
+                envVar: "GITHUB_DOT_COM_API_KEY"
+                vaultKey: "github_remote_api_token"
