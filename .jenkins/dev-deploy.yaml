@@ -5,10 +5,9 @@ deploy:
         targetEnvironment: "dev"
         applicationName: "newline"
         showInitializationPrompt: true
-        tagToRelease: "v1.6.0"
-        generateReleaseNotes: true
+        tagToRelease: "v1.7.0"
         noOfTagsToShow: "10"
-      githubRepoName: "terraform-linkedin"
+      githubRepoName: "test-no-code"
       githubOrg: "shambhu9803"
       hashivault:
       - config: 
